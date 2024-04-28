@@ -3,9 +3,9 @@ from collections import namedtuple
 
 
 if __name__ == "__main__":
-    Coordinate = namedtuple('Coordinate', 'x y z')
+    Coordinate = namedtuple('Coordinate', 'x y z' , defaults=[20,30])
     #1-Useful Representation
-    moscow = Coordinate(20,10,30)
+    moscow = Coordinate(50)#Coordinate(20,10,30)
     print(Coordinate)
     print(moscow)
     print(type(moscow))
