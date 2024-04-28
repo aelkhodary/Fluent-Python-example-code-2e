@@ -19,3 +19,11 @@ class Coordinate(NamedTuple):
         we = 'E' if self.lon >= 0 else 'W'
         return f'{abs(self.lat):.1f}°{ns}, {abs(self.lon):.1f}°{we}'
 # end::COORDINATE[]
+
+
+if __name__ == '__main__':
+    moscow = Coordinate(55.70,66.77)
+    print(moscow) 
+    #moscow.lat = 40.45
+    print(moscow) 
+

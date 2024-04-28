@@ -8,6 +8,9 @@ if __name__ == "__main__":
     moscow = Coordinate(20,10,30)
     print(Coordinate)
     print(moscow)
+    print(type(moscow))
+    #moscow.x = 40.45
+    print(moscow) 
     #2- Meaningful __eq__
     result = (moscow== Coordinate(x=20,y=10,z=30))
     print(result)
